@@ -1,0 +1,35 @@
+﻿<Window x:Class="_6TTI_Bartholome_Act0._6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_6TTI_Bartholome_Act0._6"
+        mc:Ignorable="d"
+        Title="6TTI_Bartholome_Act0.6" Height="450" Width="800">
+    <Grid>
+        <ListBox Width="250" Height="100">
+
+            <ListBoxItem Content="Danse macabre"
+                 Foreground="#FFD700"/>
+
+            <ListBoxItem Content="Toccata et Fugue en ré mineur"
+                 Foreground="#00CC00"/>
+
+            <ListBoxItem Content="L'empereur"
+                 Foreground="#0066FF"/>
+
+            <ListBoxItem Content="Tristesse"
+                 Foreground="#87CEEB"/>
+
+            <ListBoxItem Content="Clair de lune"
+                 Foreground="#FF6600"/>
+
+            <ListBoxItem Content="La Campanella"
+                 Foreground="#FF0000"/>
+
+            <ListBoxItem Content="Nocturne"
+                 Foreground="#800080"/>
+
+        </ListBox>
+    </Grid>
+</Window>
