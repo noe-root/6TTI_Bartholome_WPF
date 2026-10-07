@@ -1,0 +1,33 @@
+﻿<Window x:Class="_6TTI_Bartholome_WPF_Act2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_6TTI_Bartholome_WPF_Act2"
+        mc:Ignorable="d"
+        Title="6TTI_Bartholome_WPF_Act2" Height="450" Width="300">
+    <Grid Background="LightGray">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <TextBlock x:Name="TextBlockA" Text="A" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left" FontWeight="Bold" FontSize="64" Background="LightGray" Margin="30,0,0,0"/>
+            <TextBox x:Name="TextBoxA" Width="200" Height="50" HorizontalAlignment="Right" Margin="20,9,0,0"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <TextBlock x:Name="TextBlockB" Text="B" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left" FontWeight="Bold" FontSize="64" Background ="LightGray"  Margin="30,0,0,0"/>
+            <TextBox x:Name="TextBoxB" Width="200" Height="50" HorizontalAlignment="Right" Margin="20,9,0,0"/>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Horizontal">
+            <TextBlock x:Name="TextBlockC" Text="C" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left" FontWeight="Bold" FontSize="64" Background="LightGray" Margin="30,0,0,0"/>
+            <TextBox x:Name="TextBoxC" Width="200" Height="50" HorizontalAlignment="Right" Margin="20,9,0,0"/>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Orientation="Horizontal">
+            <Button Content="Calculer" x:Name="btnCalculer" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0" FontWeight="Bold"/>
+            <Button Content="V" x:Name="btnValider" FontSize="50" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold" Margin="25,0,0,0" Width="60" Visibility="Hidden"/>
+        </StackPanel>
+    </Grid>
+</Window>
