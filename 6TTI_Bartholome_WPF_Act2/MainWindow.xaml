@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_6TTI_Bartholome_WPF_Act2"
         mc:Ignorable="d"
-        Title="6TTI_Bartholome_WPF_Act2" Height="450" Width="300">
+        Title="6TTI_Bartholome_WPF_Act2" Height="450" Width="350">
     <Grid Background="LightGray">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -26,8 +26,8 @@
             <TextBox x:Name="TextBoxC" Width="200" Height="50" HorizontalAlignment="Right" Margin="20,9,0,0"/>
         </StackPanel>
         <StackPanel Grid.Row="3" Orientation="Horizontal">
-            <Button Content="Calculer" x:Name="btnCalculer" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0" FontWeight="Bold"/>
-            <Button Content="V" x:Name="btnValider" FontSize="50" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold" Margin="25,0,0,0" Width="60" Visibility="Hidden"/>
+            <Button Content="Calculer" x:Name="btnCalculer" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="30,0,0,0" FontWeight="Bold"/>
+            <Button Content="V" x:Name="btnValider" FontSize="50" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold" Margin="40,0,0,0" Width="60" Visibility="Hidden"/>
         </StackPanel>
     </Grid>
 </Window>

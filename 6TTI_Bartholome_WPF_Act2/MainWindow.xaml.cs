@@ -66,20 +66,14 @@ namespace _6TTI_Bartholome_WPF_Act2
         }
         private void btnValider_MouseEnter(object sender, MouseEventArgs e)
         {           
-            btnValider.Visibility = Visibility.Visible;
-            TextBlockA.Background = Brushes.Black;
-            TextBlockB.Background = Brushes.Black;
-            TextBlockC.Background = Brushes.Black;
+            btnValider.Visibility = Visibility.Visible;            
             TextBoxA.Background = Brushes.Black;
             TextBoxB.Background = Brushes.Black;
             TextBoxC.Background = Brushes.Black;
         }
         private void btnValider_MouseLeave(object sender, MouseEventArgs e)
         {
-            btnValider.Visibility = Visibility.Hidden;
-            TextBlockA.Background = Brushes.LightGray;
-            TextBlockB.Background = Brushes.LightGray;
-            TextBlockC.Background = Brushes.LightGray;
+            btnValider.Visibility = Visibility.Hidden;            
             TextBoxA.Background = Brushes.White;
             TextBoxB.Background = Brushes.White;
             TextBoxC.Background = Brushes.White;
@@ -107,7 +101,7 @@ namespace _6TTI_Bartholome_WPF_Act2
                 double x2 = (-b - Math.Sqrt(delta)) / (2 * a);
                 message = "Il y a deux solutions " + x1 + " et " + x2;
                 }            
-            MessageBox.Show(message);
+            new PageResultat(message).Show();
         }
         
     }
